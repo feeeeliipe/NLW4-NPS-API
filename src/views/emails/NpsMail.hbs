@@ -1,0 +1,65 @@
+<style>
+
+    .container {
+        width: 800px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        display:flex;
+        flex-direction: column;
+    }
+
+    .value {
+        padding: 10px;
+        background: #8257e6;
+        color: white; 
+        border-radius: 6px;
+        width: 15px;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 2px;
+    }
+
+    .ansewers {
+        width:350px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .description {
+        margin-bottom: 10px;
+    }
+
+</style>
+
+
+<div class="container">
+    <label>Olá, <strong>{{name}}</strong>! Tudo bem?</label>
+
+    <h3>{{title}}</h3>
+
+    <br/>
+
+    <strong class="description">{{description}}</strong>
+
+    <div class="ansewers">
+        <a class="value" href="{{link}}/1?u={{survey_user_id}}">1</a>
+        <a class="value" href="{{link}}/2?u={{survey_user_id}}">2</a>
+        <a class="value" href="{{link}}/3?u={{survey_user_id}}">3</a>
+        <a class="value" href="{{link}}/4?u={{survey_user_id}}">4</a>
+        <a class="value" href="{{link}}/5?u={{survey_user_id}}">5</a>
+        <a class="value" href="{{link}}/6?u={{survey_user_id}}">6</a>
+        <a class="value" href="{{link}}/7?u={{survey_user_id}}">7</a>
+        <a class="value" href="{{link}}/8?u={{survey_user_id}}">8</a>
+        <a class="value" href="{{link}}/9?u={{survey_user_id}}">9</a>
+        <a class="value" href="{{link}}/10?u={{survey_user_id}}">10</a>
+    </div>
+
+    <br/>
+    <br/>
+    <strong>Sua opnião é muito importante para nós!</strong>
+
+    <br/>
+
+    <h3>Equipe | NLW</h3>
+</div>
